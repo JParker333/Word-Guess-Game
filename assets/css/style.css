@@ -7,17 +7,21 @@
 body {
 background-color:beige;
 background-image:  url(../images/South_Park_Archives_background.jpg);
+box-sizing: border-box;
 }
 
-/* .main {
-	display: inline-block;
-	background: pink;
+.borderbox {
+	box-sizing: border-box;
+}
 
-} */
+.main {
+box-sizing: border-box;
+background-color:lightblue;
+text-align: center;
 
-header {
-	text-align: center;
-	background-color:lightskyblue; */
+}
+
+/* */
 	/* height: 75px	;
 /* } */
 /* Hangman title */
@@ -49,17 +53,17 @@ float:left;
 	background-color: beige;
 } */
 
-/* name this character sign  */
-/* h3 {
+/* Align */
+ .align {
 	text-align: center;
 	font-family: 'Reenie Beanie', cursive;
-	font-size: 50px;
+	font-size: 75px;
 	color:green;
-} */
+}
 
-/* footer {
+footer {
 	text-align: center;
 	background-color:lightskyblue;
-} */
+}
 
 

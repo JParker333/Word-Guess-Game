@@ -1,7 +1,7 @@
 
 let wordBank =["eric", "kenny", "kyle", "stan", "token", "butters", "lorde", "wendy", "timmy", "towelie", "mackey", "tweak", "ike"];
 
-// My research shows that const is the best practice for the use of the maxTries letiable.
+
 const maxTries = 10;
 let guessedLetters = [];
 let currentWordIndex;
@@ -37,7 +37,6 @@ guessingWordText += guessingWord[i];
 console.log("CurrentWord:", guessingWordText);
 console.log("GuessingWord:", guessingWord);
 console.log("CurrentWordIndex:", currentWordIndex);
-console.log("Bone:", wordBank[currentWordIndex]);
 document.getElementById("currentWord").innerText = guessingWordText;
 document.getElementById("remainingChances").innerText = remainingGuesses;
 document.getElementById("usedLetters").innerText = guessedLetters;
@@ -63,8 +62,7 @@ for (let i = 0; i < strArray.length; i++) {
 }
 }
 };
-/*Following pair of functions are called firstly upon a keydown event and lastly after letter
-evaluation logic has completed*/
+
 function checkWin() {
 if (guessingWord.indexOf("_") === -1) {
 wins++;
