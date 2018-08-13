@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Word Guessing Game</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+	 crossorigin="anonymous">
+
+	 <script src="./assets/javascript/game.js"></script> 
+	 
+	<link rel="stylesheet" href="./assets/css/style.css">
+	
+
+</head>
+
+<body onload="resetGame();">
+
+
+	<div id="content">
+		<header>
+			<div class="jumbotron">
+				<div class="container">
+					<h1 class="Hangman">Hangman</h1>
+					<h2 class="Southpark">Southpark Edition!</h2>
+				</div>
+		</header>
+
+		<div class="container" id="bodyContent">
+			<div class="row">
+				<div class="col-sm-6" id="infocontent">
+					<div>
+						<img src="" class="img-responsive" alt="">
+					</div>
+				</div>
+				<div class="col-sm-6" id="gamecontent">
+
+					<h2 id="startMsg">
+						<strong>Press any letter to play.</strong>
+					</h2>
+					<p>
+						<strong>Wins</strong>
+					</p>
+					<h1 id="winCount"></h1>
+					<strong>Losses</strong>
+					</p>
+					<h1 id="lossCount"></h1>
+					<strong>Current Word</strong>
+					<h1 id="currentWord"></h1>
+					<strong>Number of Guesses Remaining</strong>
+					<h1 id="remainingChances"></h1>
+					<strong>Letters already guessed</strong>
+					<p>
+						<h1 id="usedLetters"></h1>
+					</p>
+				</div>
+			</div>
+
+		</div>
+		</div>
+		
+
+</body>
+
+</html>
