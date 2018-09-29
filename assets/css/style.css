@@ -8,6 +8,7 @@ body {
 background-color:beige;
 background-image:  url(../images/South_Park_Archives_background.jpg);
 box-sizing: border-box;
+/* font-size: 15px; */
 }
 
 .borderbox {
@@ -26,7 +27,7 @@ text-align: center;
 /* } */
 /* Hangman title */
 .hangman {
-	font-size: 60px;
+	font-size: 45px;
 	font-family: 'Press Start 2P', cursive;
 	text-shadow: 2px 2px 2px #CCCCCC;
 	color:whitesmoke;
@@ -64,6 +65,34 @@ float:left;
 footer {
 	text-align: center;
 	background-color:lightskyblue;
+}
+
+h1 {
+	font-size: 15px;
+}
+
+.white {
+	background-color: white;
+}
+
+/* Media Queries */ 
+@media screen and (max-width: 980px) {
+	.white {
+		background-color: white;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	.white {
+		background-color: white;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.white {
+		background-color: white;
+	}
 }
 
 
