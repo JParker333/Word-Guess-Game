@@ -80,6 +80,12 @@ h1 {
 	.white {
 		background-color: white;
 	}
+	footer {
+		width:auto;
+	}
+	.hangman {
+		font-size: 10px;
+	}
 
 }
 
@@ -87,11 +93,37 @@ h1 {
 	.white {
 		background-color: white;
 	}
+	footer {
+		width:auto;
+	}
+	.hangman {
+		font-size: 10px;
+	}
 }
 
 @media screen and (max-width: 640px) {
 	.white {
 		background-color: white;
+	}
+	footer {
+		width:auto;
+	}
+	.hangman {
+		font-size: 35px;
+	}
+
+	img {
+		align-content: center;
+	}
+
+	.main {
+		width:150%;
+	}
+	#gamecontent {
+		align-content: center;
+	}
+	.container {
+		align-content: center;
 	}
 }
 
